@@ -43,7 +43,6 @@ O Shimmer Effect é uma alternativa muito efetiva em relação ao loading tradic
 
 Esse projeto foi desenvolvido usando as seguintes tecnologias:
 
-- [Node.js](https://nodejs.org/en/)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [TypeScript](https://www.typescriptlang.org)
 - [ReactJS](https://reactjs.org)
