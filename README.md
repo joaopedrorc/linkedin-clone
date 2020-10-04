@@ -7,8 +7,8 @@
     <img alt="Made by DanielObara" src="https://img.shields.io/badge/made%20by-JoãoPedroCordeiro-%2304D361">
  </a>
 
- <a href="https://github.com/5626pedro/linkedin-clone/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/5626pedro/nlw-0.1">
+ <a href="https://github.com/jotape02/linkedin-clone/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jotape02/linkedin-clone">
  </a>
 </p>
 
