@@ -1,44 +1,81 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    LinkedIn Clone - Shimmering Effect 
+</h1>
+	
+<p align="center">
+<a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-cordeiro-a2b97319a/">
+    <img alt="Made by DanielObara" src="https://img.shields.io/badge/made%20by-JoãoPedroCordeiro-%2304D361">
+ </a>
 
-## Available Scripts
+ <a href="https://github.com/5626pedro/linkedin-clone/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/5626pedro/nlw-0.1">
+ </a>
+</p>
 
-In the project directory, you can run:
+![smartmockups_kfvk7oby](https://user-images.githubusercontent.com/55864118/95026456-e0550b00-0667-11eb-98aa-4d27c4709777.jpg)
 
-### `yarn start`
+ ## :information_source: O que é o Shimmer Effect ?
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Há algum tempo o Facebook criou uma forma inusitada para indicar o carregamento de suas páginas, o chamado Shimmer Effect, que nada mais é que a exibição de um esqueleto da página em forma de animação no lugar de um Spinner ou uma Barra de Progresso
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Shimmer Effect em ação 
 
-### `yarn test`
+![Screen Recording 2020-08-29 at 19 20 13](https://user-images.githubusercontent.com/55864118/95026637-21015400-0669-11eb-8a0d-0d22824caef1.gif)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Vantagens ao usá-lo: 
+O Shimmer Effect é uma alternativa muito efetiva em relação ao loading tradicional pois permite que sejam criadas Skeletons Screens, que são as páginas onde enquanto o conteúdo é carregado de modo assíncrono o Shimmer está aparecendo, e ele dá um feedback bacana para o usuário, trazendo as seguintes vantagens:
 
-### `yarn build`
+- Faz com que o usuário perceba que a página/tela carrega rápido;
+- Acaba com a surpresa sobre a interface;
+- Carregamento gradual da interface;
+- Indicação clara de progresso;
+- Mostra exatamente o que já foi carregado e o que ainda tem para carregar.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Skeletons Screens
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+![Screen Recording 2020-08-29 at 19 15 04](https://user-images.githubusercontent.com/55864118/95026661-527a1f80-0669-11eb-8a88-1b75799c7dd6.gif)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Projeto funcional pelo Netlify
+- [Projeto funcional](https://mystifying-visvesvaraya-9486b5.netlify.app)
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## :rocket: Tecnologias
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Esse projeto foi desenvolvido usando as seguintes tecnologias:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [Node.js](https://nodejs.org/en/)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [TypeScript](https://www.typescriptlang.org)
+- [ReactJS](https://reactjs.org)
+- [Netlify](https://www.netlify.com)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Para fazer uma cópia dessa aplicação, você precisará [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) + [npm](https://www.npmjs.com/get-npm) (npm é baixado com o Node.js) instalados no seu computador.
 
-## Learn More
+Pelo Seu Terminal: 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Instalar
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+# Clone this repository
+$ git clone https://github.com/jotape02/linkedin-clone
+
+# Go into the repository
+$ cd linkedin-clone
+
+# Install dependencies
+$ yarn install
+
+# Run
+$ yarn start
+
+# running on port 3000
+```
+
+## 🤔 Como contribuir
+
+- Faça um fork desse repositório;
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
+
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
